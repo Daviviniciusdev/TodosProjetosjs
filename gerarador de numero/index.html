@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> adivinhação tosco</title>
+    <style>
+        body {
+            background-image: linear-gradient(-50deg, white, blue);
+            height: 100vh;
+            color: white;
+        }
+
+        .result {
+            display: inline-block;
+        }
+
+        .tentar {
+            margin-top: 40px;
+            width: 100px;
+            height: 35px;
+            background-color: aquamarine;
+            color: black;
+            font-weight: 700;
+            font-size: 14px;
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    Numero gerado: <div class="result"></div> <br>
+
+    <script src="script.js"></script> <br>
+
+    <button class="tentar" onclick="gerar()">gerar um numero</button> <br>
+    <button class="tentar" onclick="Refresh()">tentar novamente</button>
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/e02d646f464b5ca11afebe319e7dce01.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    height: auto;
+}
+
+
+
+.content-left {
+    padding-top: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.content-left h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.content-left label {
+    padding-bottom: 15px;
+    color: white;
+}
+
+.content-left input {
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color: chocolate;
+    color: white;
+}
+
+.content-left .button {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 15px;
+    border: 0;
+    background-color: rgb(241, 181, 50);
+
+
+}
+
+.content-left .button a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img {
+    margin-left: 200px;
+    width: 1000px;
+    height: 900px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-30px)
+    }
+
+    75% {
+        transform: translateY(-25);
+    }
+
+    100% {
+        transform: translatey(0px)
+    }
+}
+
+@media (max-width:840px) {
+    body {
+        overflow: hidden;
+    }
+
+
+    .content-left {
+        margin-left: 50px;
+    }
+
+    .content-left input {
+        margin-left: 5px;
+    }
+
+    .content-left .button {
+        margin-left: 5px;
+    }
+
+    .content-left label {
+        text-align: center;
+    }
+}

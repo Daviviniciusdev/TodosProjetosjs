@@ -1,0 +1,58 @@
+
+body{
+    background: linear-gradient(135deg, orange 60%, cyan);
+}
+
+tr button {
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+}
+
+#resultado {
+    border: 1px solid #888;
+    width: 268px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.botao-0{
+    width: 100%;
+}
+.igual{
+    height: 120px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px  #585353;
+}
+
+.calculadora{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border: 1px solid #999;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: red;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}

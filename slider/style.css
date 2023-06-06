@@ -1,0 +1,48 @@
+* {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    background-color: red;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slider {
+    width: 100vw;
+    height: 100vh;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 1s;
+    width: calc(100vw * 3);
+
+
+}
+
+.slide-item {
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+}
+
+.controls {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #076803;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+#tela {
+    border: 2px solid #000;
+    background-color: #FFF;
+    cursor: crosshair;
+}
+
+.colorArea {
+    width: 800px;
+    display: flex;
+}
+.color {
+    flex: 1;
+    height: 40px;
+    cursor: pointer;
+}
+.color.active {
+    border: 5px solid #FFF;
+}
+
+.clear {
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 13px;
+}
+
+.input{
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.enviar {
+    position: relative;
+    left: 340px;
+    bottom: 58px;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    
+}
+.enviar:hover{
+    background-color: red;
+    color: white;
+}
+
+.borracha{
+    background-image: url(43279.png);
+    height: 40px;
+    max-width: 40px;
+    background-size: cover;
+}
+
+.valor {
+    color: white;
+}
+

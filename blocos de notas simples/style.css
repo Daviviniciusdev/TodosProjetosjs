@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.area{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.area-blocos{
+    width: 50%;
+    height: 500px;
+    border: 1px solid #000;
+
+    
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    color: #000;
+}

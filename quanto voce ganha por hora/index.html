@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalho</title>
+    <style>
+        body {
+            background-image: linear-gradient(-45deg, rgb(71, 70, 71), rgb(144, 139, 139));
+            height: 100vh;
+        }
+
+        #horas {
+            width: 260px;
+            background-color: #ccc;
+        }
+
+        input {
+            width: 250px;
+            background-color: #ccc;
+            font-size: 20px;
+        }
+
+        legend {
+            font-style: italic;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            font-style: italic;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <legend>quantos dias você trabalha por mês?</legend>
+    <input id="dias" type="number" placeholder="Digite o valor correto">
+
+    <legend>Digite quanto você ganha por mês:</legend>
+    <br>
+    <input id="dinheiro" type="number" placeholder="Digite o valor sem vígula">
+
+    <br><br>
+
+    <legend>Digite quantas horas você trabalha por dia:</legend>
+    <br>
+    <input id="horas" type="number" placeholder="Digite o valor correto">
+
+    <br><br>
+
+    <button onclick="calcular()">calcular</button>
+
+    <div id="resultado"></div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

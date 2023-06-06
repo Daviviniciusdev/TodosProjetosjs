@@ -1,0 +1,42 @@
+
+.board{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td{
+    border: 2px solid #000;
+    width: 150px;
+    height:150px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.player-x{
+    color: green;
+}
+
+.player-o{
+    color:red;
+}
+.player-x-score{
+    color: green;
+    font-weight: bold;
+    line-height: 30px;
+}
+.player-o-score{
+    color: red;
+    font-weight: bold;
+}
+
+#button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: blue;
+    color: white;
+}

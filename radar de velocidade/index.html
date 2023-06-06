@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radar de velocidade</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // velocidade maxima(60)
+        // a cada 10km a cima 1ponto na carteira
+        // 12 pontos na carteira a mesma é suspensa
+
+
+        let velocidadeMaxima = 60
+        let velocidade = 180
+
+        function radar() {
+            if (velocidade <= velocidadeMaxima)
+                console.log('dentro do permitido');
+            else {
+                let velAcima = velocidade - velocidadeMaxima
+                let pontos = Math.floor(((velAcima) / 10));
+                console.log('você recebeu ' + pontos + ' pontos na carteira por passar ' + velAcima + ' km/h a cima da velocidade permitida de ' + velocidadeMaxima + ' km/h')
+
+                if (pontos >= 12) {
+                    console.log(' sua carteira foi suspensa por receber ' + pontos + ' pontos ')
+                }
+            }
+
+        }
+
+        radar();
+    </script>
+</body>
+
+</html>

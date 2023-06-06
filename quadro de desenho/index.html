@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhando no Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>QUADRO DE DESENHOS</h1>
+
+    <canvas id="tela" width="800" height="400"></canvas>
+
+    <div class="colorArea">
+        <div data-color="black" style="background-color: black" class="color active"></div>
+        <div data-color="blue" style="background-color: blue" class="color"></div>
+        <div data-color="red" style="background-color: red" class="color"></div>
+        <div data-color="green" style="background-color: green" class="color"></div>
+        <div data-color="yellow" style="background-color: yellow" class="color"></div>
+        <div data-color="gray" style="background-color: gray" class="color"></div>
+        <div data-color="rebeccapurple" style="background-color: rebeccapurple" class="color"></div>
+        <div data-color="orangered" style="background-color: orangered" class="color"></div>
+        <div data-color="palevioletred" style="background-color: palevioletred" class="color"></div>
+        <div data-color="white" style="background-color: white" class="color borracha"></div>
+    </div>
+
+    <button class="clear">Limpar Quadro</button>
+    
+
+    <input type="text" class="input" placeholder="defina a largura da linha"> 
+    <button class="enviar">adicionar</button>
+    <div class="valor"></div>
+
+    <footer>Criado por davi</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

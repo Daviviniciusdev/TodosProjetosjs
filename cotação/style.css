@@ -1,0 +1,70 @@
+body {
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient( 800deg, rgb(20, 20, 128), rgb(6, 6, 75));
+}
+
+form legend {
+    font-size: 40px;
+    color: white;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#moedas {
+    position: relative;
+    top: 50px;
+    width: 350px;
+    height: 25px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: blue;
+    text-align: center;
+    font-style: italic;
+    outline: none;
+}
+
+#submit {
+    position: relative;
+    top: 50px;
+    margin-left: 30%;
+    padding: 25px;
+    width: 150px;
+    border-radius: 30px;
+    border: blue;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+#submit:hover{
+    background-color: blue;
+}
+
+#resultado{
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+
+}
+
+form{
+   position: absolute;
+   top: 35%;
+    height: 400px;
+    background-color: rgb(0, 96, 126);
+    border: 1px solid blue;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px #999;
+}
+.custom-loader {
+    display: none;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:conic-gradient(#0000 10%,#0011ff);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+    animation:s3 1s infinite linear;
+  }
