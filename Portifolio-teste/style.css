@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #11071F;
+    max-width: 1980px;
+}
+
+header{
+    width: 100%;
+    height: 113px;
+    display: flex;
+
+}
+nav {
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-family:'Plus Jakarta Sans';
+
+    & ul{
+        display: flex;
+
+
+        & li{
+            list-style: none;
+            padding: 42px 43px;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        && a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+    }
+}
+
+.content-center{
+    margin-left: 520px;
+    margin-top: 180px;
+}
+
+.content-info{
+    position: absolute;
+    width: 385px;
+    height: 431px;
+    left: 386px;
+    top: 191px;
+
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+
+}
+.secondary-grad{
+    position: absolute;
+    width: 258px;
+    height: 259px;
+    left: 69px;
+    top: 82px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 17.71%, rgba(67, 67, 67, 0) 100%);
+}
+
+.content-info img {
+    position: absolute;
+    left: 114px;
+    top: 92px;
+    width: 165px;
+    height: 223px;
+
+}
+.content-center-info{
+    display: flex;
+    width: 100%;
+   
+}
+.content-text{
+    margin-left: 230px;
+    
+}
+.content-text a{
+    color: white;
+    font-family: 'Preahvihear';
+    font-weight: 400;
+    font-size: 17px;
+    
+}
+.content-text h4{
+    position: absolute;
+    width: 40rem;
+    height: 126px;
+    left: 728px;
+    top: 317.68px;
+
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+.content-text span {
+    color: #693B93;
+   
+}
+
+.content-border{
+    
+    box-sizing: border-box;
+    position: absolute;
+    width: 276.38px;
+    height: 57.9px;
+    left: 686px;
+    top: 390.17px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-4.74deg);
+    border-radius: 100%;
+}
+
+@keyframes border-circle {
+    0%{transform:rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+
