@@ -25,7 +25,9 @@ document.querySelector('.busca').addEventListener('submit', async (event) =>{
                 windSpeed: json.wind.speed,
                 windAngle: json.wind.deg,
                 description: json.weather[0].description,
-                humidity: json.main.humidity
+                humidity: json.main.humidity,
+                pressure: json.main.pressure,
+                visibility: json.visibility,
                 
            })
            clearLoading();
@@ -47,6 +49,8 @@ function showInfo(json) {
     document.querySelector('.ventoPonto').style.transform = `rotate(${json.windAngle-90}deg)`
     document.querySelector('.description').innerHTML = json.description;
     document.querySelector('.humidity').innerHTML = ` umidade ${json.humidity}`;
+    document.querySelector('.pressure').innerHTML = ` pressure ${json.pressure}`
+    document.querySelector('.visibility').innerHTML = `visibility ${json.visibility}`
 }
 
 
