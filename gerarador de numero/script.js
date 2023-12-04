@@ -7,7 +7,7 @@ document.write(` numero escolhido foi: ${escolha}`)
 function gerar() {
 
     var numero = document.querySelector('.result');
-    numero.innerHTML = Math.floor(10 * Math.random() + 1);
+    numero.innerHTML = Math.floor(5 * Math.random() + 1);
     if (numero.innerHTML == escolha) {
         alert('parabéns você acertou ')
     } else {
